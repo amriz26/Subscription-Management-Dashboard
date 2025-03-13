@@ -12,6 +12,7 @@ The Subscription Management Dashboard is designed to give users complete visibil
 
 Features
 Core Features
+
 ➪Backend API (Django/DRF):
   ➪Models: Data models to store subscription details including service name, pricing, billing cycle, and renewal dates.
   ➪API Endpoints:
