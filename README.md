@@ -1,6 +1,6 @@
 # Subscription-Management-Dashboard
 
-The Subscription Management Dashboard is a full-stack application designed to help users track and manage their recurring subscription services (like Netflix and Spotify). It provides cost analysis, renewal reminders, and a comparison tool to help users save money by switching billing cycles.
+👾 The Subscription Management Dashboard is a full-stack application designed to help users track and manage their recurring subscription services (like Netflix and Spotify). It provides cost analysis, renewal reminders, and a comparison tool to help users save money by switching billing cycles.
 
 How it works:
 Backend:A Django REST Framework API handles subscription data. When a new subscription is added, it automatically calculates the renewal date based on the billing cycle (monthly or annually). The API also computes aggregate costs and provides endpoints to list, create, and cancel subscriptions.
