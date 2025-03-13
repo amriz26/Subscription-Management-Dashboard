@@ -16,3 +16,32 @@ Visualization: Charting libraries (e.g., Chart.js)
 Price history: Tracks changes in subscprtion prices over time
 Dark mode: Allows users to change between light and dark themes for a better experience (my favorite is dark mode!)
 
+How to run:
+### Prerequisites
+- Python 3.9+
+- Node.js 16+
+- PostgreSQL (or SQLite for development)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amriz26/Subscription-Management-Dashboard.git
+   cd Subscription-Management-Dashboard
+
+Backend setup:
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+# venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Apply migrations
+python manage.py migrate
+
+# Run the Django server
+python manage.py runserver
+
+
