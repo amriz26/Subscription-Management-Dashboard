@@ -9,7 +9,7 @@ Frontend: The dashboard displays the total monthly spend, a renewal calendar, an
 💻 Technologies Used:
 Backend: Python, Django, Django REST Framework
 Frontend: JavaScript (React / React.js)
-Database: SQLite/PostgreSQL
+Database: SQLite
 Visualization: Charting libraries (e.g., Chart.js)
 
 🚀 Bonus Features:
